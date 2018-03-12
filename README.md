@@ -49,7 +49,6 @@ then ssh into your new instance,
 ### run startup script to set up dev env
 `./gcloud-Ubuntu-14-and-Flask-setup/install_startup.sh`
 
-### `cd` into the folder and edit those config files
-replace the generic github user information with your own in config_git.sh<br>
+### navigate into the folder and edit those config files
 replace the generic username information in config_apache.sh
 
