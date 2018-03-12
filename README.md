@@ -33,7 +33,7 @@ and allow http and https through the firewall since we'll be using this instance
 
 # getting into the box
 open gcloud SDK shell
-then ssh into your new instance, 
+then ssh into your new instance,
 using the appropriate instance name in place of 'instance-1'
 `gcloud compute ssh instance-1`
 
