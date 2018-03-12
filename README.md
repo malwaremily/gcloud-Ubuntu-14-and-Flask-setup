@@ -8,11 +8,11 @@ GUI:
 To create a new instance, use the menu button in the upper right hand corner 
 elect >Compute Engine, 
 
-(https://github.com/emiliska/gcloud-Ubuntu-14-and-Flask-setup/blob/master/Images/ci_0a.PNG)
+![gcp compute engine](https://github.com/emiliska/gcloud-Ubuntu-14-and-Flask-setup/blob/master/Images/ci_0a.PNG)
 
 then select >VM Instances
 
-(https://github.com/emiliska/gcloud-Ubuntu-14-and-Flask-setup/blob/master/Images/ci_0b.PNG)
+![vm instances](https://github.com/emiliska/gcloud-Ubuntu-14-and-Flask-setup/blob/master/Images/ci_0b.PNG)
 
 Click the 'Create Instance +' Button in GCP Compute Engine, VM Instances
 
