@@ -14,14 +14,14 @@ scripts to install and use flask in ubuntu 14
 `gcloud compute instances create $INSTANCE_NAME`
 
 
-### update and upgrade apt
+### update apt
 `sudo apt-get update -y`
 
 ### install git
 `sudo apt-get install git -y`
 
 ### clone this repo to your new instance
-`sudo git clone $REPO_URL`
+`sudo git clone https://github.com/emiliska/gcloud-Ubuntu-14-and-Flask-setup.git`
 
 ### run startup script to set up dev env
 `startup.sh`
