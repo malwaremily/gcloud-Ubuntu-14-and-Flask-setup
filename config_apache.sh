@@ -12,13 +12,13 @@ sudo chown -R $USERNAME /var/www
 sudo chown -R $USERNAME /etc/apache2
 
 # create wsgi file in /var/www
-touch /var/www/hello.wsgi
+sudo touch /var/www/hello.wsgi
 echo 'import sys' >> /var/www/hello.wsgi
 echo 'sys.path.insert(0,"/var/www/firstapp")' >> /var/www/hello.wsgi
 echo 'from hello imkport app as application' >> /var/www/hello.wsgi
 
 # create apache config file
-touch /etc/apache2/hello.conf
+sudo touch /etc/apache2/hello.conf
 echo '<VirtualHost*>' >> /etc/apache2/hello.conf
 echo 'ServerName example.com' >> /etc/apache2/hello.conf
 echo '' >> /etc/apache2/hello.conf
