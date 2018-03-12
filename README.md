@@ -2,16 +2,19 @@
 scripts to install and use flask in ubuntu 14
 
 ## Getting Started
+Create a new instance using gcp 
 
-### set config options as needed
-`gcloud config set project $PROJECT_NAME`
+GUI:
+To create a new instance, use the menu button in the upper right hand corner 
+elect >Compute Engine, 
 
-`gcloud compute zones list`
+(https://github.com/emiliska/gcloud-Ubuntu-14-and-Flask-setup/blob/master/Images/ci_0a.PNG)
 
-`gcloud config set compute/zone $ZONE_NAME`
+then select >VM Instances
 
-### set up your new ubuntu instance
-`gcloud compute instances create $INSTANCE_NAME`
+(https://github.com/emiliska/gcloud-Ubuntu-14-and-Flask-setup/blob/master/Images/ci_0b.PNG)
+
+Click the 'Create Instance +' Button in GCP Compute Engine, VM Instances
 
 
 ### update apt
