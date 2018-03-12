@@ -32,7 +32,7 @@ and allow http and https through the firewall since we'll be using this instance
 open gcloud SDK shell<br>
 then ssh into your new instance,
 <br>(using the appropriate instance name in place of 'instance-1')
-<br>`gcloud compute --project "projectName" ssh --zone "us-east1-b" "instance-1"`
+<br>`gcloud compute  ssh instance-1`
 
 ### update apt
 `sudo apt-get update -y`
