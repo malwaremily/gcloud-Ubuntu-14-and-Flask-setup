@@ -3,7 +3,7 @@
 # I am the first script to run. :D
 
 # install Flask
-sudo apt-get install python-pip
+sudo apt-get install python-pip -y
 pip install --user Flask
 
 # install Apache, WSGI(Web Server Gateway Interface)
