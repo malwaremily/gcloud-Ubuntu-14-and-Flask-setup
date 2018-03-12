@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# I am the first script to run. :D
+
 # install Flask
 sudo apt-get install python-pip
 pip install --user Flask
