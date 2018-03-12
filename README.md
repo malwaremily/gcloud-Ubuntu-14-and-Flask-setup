@@ -34,9 +34,8 @@ and allow http and https through the firewall since we'll be using this instance
 # getting into the box
 open gcloud SDK shell
 then ssh into your new instance,
-
-using the appropriate instance name in place of 'instance-1'
-`gcloud compute ssh instance-1`
+<br>(using the appropriate instance name in place of 'instance-1')
+<br>`gcloud compute ssh instance-1`
 
 ### update apt
 `sudo apt-get update -y`
