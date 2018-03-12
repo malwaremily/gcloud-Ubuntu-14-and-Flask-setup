@@ -43,5 +43,8 @@ then ssh into your new instance,
 ### clone this repo to your new instance
 `sudo git clone https://github.com/emiliska/gcloud-Ubuntu-14-and-Flask-setup.git`
 
+### give all shell scripts permission to execute
+`chmod 700 gcloud-Ubuntu-14-and-Flask-setup/*sh`
+
 ### run startup script to set up dev env
 `./gcloud-Ubuntu-14-and-Flask-setup/install_startup.sh`
